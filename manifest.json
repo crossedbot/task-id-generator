@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Task ID Generator",
+    "version": "0.0.1",
+    "description": "A canonical Task ID generator.",
+    "icons": {
+        "48": "icons/icon-48.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/icon-48.png",
+        "theme_icons": [{
+            "light": "icons/icon-48.png",
+            "dark": "icons/icon-48.png",
+            "size": 48
+        }],
+        "default_title": "Task ID Generator",
+        "default_popup": "popup/generate.html"
+    }
+}

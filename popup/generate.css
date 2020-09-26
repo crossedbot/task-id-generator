@@ -1,0 +1,53 @@
+html, body {
+    width: 300px;
+
+    font-family: 'Roboto', lato;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.page-contents{
+    margin: auto;
+    padding: 10px;
+}
+
+.red {
+    color: red;
+}
+
+#generateTaskIdBtn {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#taskId {
+    display: inline-block;
+}
+
+#taskId p{
+    font-size: 13px;
+
+    cursor: pointer;
+}
+
+#taskId p .tooltip-text {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 5px;
+
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#taskId p:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
